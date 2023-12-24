@@ -1,0 +1,27 @@
+\begin{theindex}
+
+  \item {cipher\_error}, \hyperpage{7}
+
+  \indexspace
+
+  \item {decrypt}
+    \subitem {modAlphaCipher}, \hyperpage{9}
+
+  \indexspace
+
+  \item {encrypt}
+    \subitem {modAlphaCipher}, \hyperpage{10}
+
+  \indexspace
+
+  \item {KeyAB\_fixture}, \hyperpage{8}
+
+  \indexspace
+
+  \item {modAlphaCipher}, \hyperpage{8}
+    \subitem {decrypt}, \hyperpage{9}
+    \subitem {encrypt}, \hyperpage{10}
+    \subitem {modAlphaCipher}, \hyperpage{9}
+  \item {modAlphaCipher.h}, \hyperpage{13}
+
+\end{theindex}
