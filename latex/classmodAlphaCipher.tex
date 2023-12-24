@@ -1,4 +1,4 @@
-\hypertarget{classmodAlphaCipher}{}\doxysection{Класс mod\+Alpha\+Cipher}
+\hypertarget{classmodAlphaCipher}{}\doxysection{mod\+Alpha\+Cipher Class Reference}
 \label{classmodAlphaCipher}\index{modAlphaCipher@{modAlphaCipher}}
 
 
@@ -9,7 +9,7 @@
 
 {\ttfamily \#include $<$mod\+Alpha\+Cipher.\+h$>$}
 
-\doxysubsection*{Открытые члены}
+\doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{classmodAlphaCipher_a4f0a86c20f5d836f66cb1e640d875e6b}\label{classmodAlphaCipher_a4f0a86c20f5d836f66cb1e640d875e6b}} 
@@ -23,15 +23,15 @@ std\+::wstring \mbox{\hyperlink{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a8
 \begin{DoxyCompactList}\small\item\em Метод, предназначенный для расшифрования \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Подробное описание}
+\doxysubsection{Detailed Description}
 Класс, который реализует шифрование методом \char`\"{}Гронсвельда\char`\"{}. 
 
-\begin{DoxyWarning}{Предупреждения}
+\begin{DoxyWarning}{Warning}
 Работает только с русскоязычными сообщениями 
 \end{DoxyWarning}
 
 
-\doxysubsection{Конструктор(ы)}
+\doxysubsection{Constructor \& Destructor Documentation}
 \mbox{\Hypertarget{classmodAlphaCipher_a314fca132f4e74faca280b7c1fad7cb5}\label{classmodAlphaCipher_a314fca132f4e74faca280b7c1fad7cb5}} 
 \index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
 \index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
@@ -50,13 +50,13 @@ std\+::wstring \mbox{\hyperlink{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a8
 
 \end{DoxyCode}
  
-\begin{DoxyParams}{Аргументы}
+\begin{DoxyParams}{Parameters}
 {\em std\+::wstring} & -\/ ключ в виде строки \\
 \hline
 \end{DoxyParams}
 
 
-\doxysubsection{Методы}
+\doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a80ff35}\label{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a80ff35}} 
 \index{modAlphaCipher@{modAlphaCipher}!decrypt@{decrypt}}
 \index{decrypt@{decrypt}!modAlphaCipher@{modAlphaCipher}}
@@ -82,16 +82,16 @@ std\+::wstring \mbox{\hyperlink{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a8
 
 
 
-\begin{DoxyParams}{Аргументы}
+\begin{DoxyParams}{Parameters}
 {\em std\+::wstring} & cipher\+\_\+text -\/ сообщение, которое нужно расшифровать \\
 \hline
 \end{DoxyParams}
 
-\begin{DoxyExceptions}{Исключения}
+\begin{DoxyExceptions}{Exceptions}
 {\em \mbox{\hyperlink{classcipher__error}{cipher\+\_\+error}},если} & строка, которая поступила на вход пустая или в ней есть недопустимые символы \\
 \hline
 \end{DoxyExceptions}
-\begin{DoxyReturn}{Возвращает}
+\begin{DoxyReturn}{Returns}
 строка расшифрованного текста типа \char`\"{}wstring\char`\"{} 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classmodAlphaCipher_a5edc499881373a275a3cd14f0cab6c19}\label{classmodAlphaCipher_a5edc499881373a275a3cd14f0cab6c19}} 
@@ -117,21 +117,21 @@ std\+::wstring \mbox{\hyperlink{classmodAlphaCipher_a941eab79d9ec1a8de4e1f9cf2a8
 
 \end{DoxyCode}
  Далее, при возврате значения, вектор work опять преобразуется в строку. 
-\begin{DoxyParams}{Аргументы}
+\begin{DoxyParams}{Parameters}
 {\em std\+::wstring} & open\+\_\+text -\/ сообщение, которое нужно зашифровать \\
 \hline
 \end{DoxyParams}
 
-\begin{DoxyExceptions}{Исключения}
+\begin{DoxyExceptions}{Exceptions}
 {\em \mbox{\hyperlink{classcipher__error}{cipher\+\_\+error}},если} & строка, которая поступила на вход пустая или в ней есть недопустимые символы \\
 \hline
 \end{DoxyExceptions}
-\begin{DoxyReturn}{Возвращает}
+\begin{DoxyReturn}{Returns}
 строка зашифрованного текста типа \char`\"{}wstring\char`\"{} 
 \end{DoxyReturn}
 
 
-Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{modAlphaCipher_8h}{mod\+Alpha\+Cipher.\+h}}\item 
 mod\+Alpha\+Cipher.\+cpp\end{DoxyCompactItemize}
